@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+
+}
+
+.nav{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:  2px solid   black; */
+}
+.main{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav .container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav  .container ul{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.container h1{
+    width: 20%;
+    color: #023047;
+    font-size: 40px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+.div_input{
+    width: 36%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.div_input  .div_search{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.div_search input{
+    width:220px;
+    height: 45px;
+    padding-left: 15px;
+}
+.div_search  li{
+    width: 50px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    list-style: none;
+    background: #023047;
+}
+
+.div_search li a {
+    font-size: 22px;
+    color:#fff;
+}
+
+.div_input .heart{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.main_body{
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/BG.png);
+    background-size: cover;
+    background-position:center  center ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+
+.text11{
+    width:85%;
+    height: 400px;
+    padding: 25px 0;
+}
+
+.text23{
+    width: 550px;
+    height: 350px;
+    
+}
+.text23 h1{
+    width: 300px;
+    height: 120px;
+    color: #333;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px  0 20px 0;
+}
+
+.btn_shop{
+    width: 130px;
+    height: 40px;
+    margin: 25px  0 25px  0;
+}
+
+.btn_shop button{
+    width:100%;
+    height: 40px;
+background: #023047;
+color: white;
+border: none;
+}
+
+.main_cards{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_cards  .container_new{
+    width: 85%;
+    height: 480px;
+    /* border: 1px solid  black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards{
+    width: 600px;
+    height: 450px;
+    /* border: 1px solid  red; */
+    background-image: url(./img/Summer\ Sale.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+ align-items: center;   
+}
+.text_matn{
+    width: 250px;
+    height: 150px;
+    /* border: 1px solid  red; */
+}
+
+.text_matn h3{
+    width: 250px;
+    height:50px;
+    padding: 15px 0 10px;
+    /* border: 1px solid red; */
+}
+
+.text_matn p{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 10px 0 10px 0;
+}
+
+.text_matn  .btn_new{
+    width: 200px;
+    height: 45px;
+}
+.btn_new button{
+    width: 120px;
+    height: 40px;
+    margin: 20px 0 12px 0;
+}
+
+.name{
+    width: 500px;
+    height: 450px;
+    /* border: 1px solid red; */
+    padding: 10px 0;
+}
+
+.name >div{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid #333; */
+    margin: 10px 0  15px 0;
+}
+.box:nth-child(1){
+    background-image: url(./img/11.svg);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.box:nth-child(1) button{
+    width: 110px;
+    height: 50px;
+    margin: 10px 0;
+}
+.box:nth-child(1) h2{
+    margin: 5px 0;
+}
+
+.box:nth-child(2){
+    background-image: url(./img/BG\ \(1\).png);
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+.mmm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-right: 20px;
+}
+
+
+.box:nth-child(2) button{
+    width: 110px;
+    height: 50px;
+    margin: 10px 0;
+}
+.box:nth-child(2) h2{
+    margin: 5px 0;
+}
